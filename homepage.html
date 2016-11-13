@@ -16,25 +16,29 @@
     src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
     integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
     crossorigin="anonymous"></script>
+  <script
+      src="http://code.jquery.com/ui/1.12.0/jquery-ui.min.js"
+      integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E="
+      crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="public/css/style.css">
   <script type="text/javascript" src="public/js/script.js"></script>
 </head>
 <body>
   <div class="main">
     <!--<iframe height="0" width="0" src="https://www.youtube.com/embed/Gy_RHdE7zsc?autoplay=1&loop=1&start=1"></iframe>-->
-    <form method="get" action="https://www.google.com.mx/search?q=search" autocomplete="off">
-      <input id="search" type="text" name="q" size="50" value="" placeholder="Google" autofocus>
+    <form class="form" method="get" autocomplete="off">
+      <input class="search" type="text" name="q" size="50" value="" placeholder="-g | -u | -w | -c" autofocus>
     </form>
     <div class="menu">
-      <a href="#social" data-toggle="collapse">Social</a>
-      <a href="#media" data-toggle="collapse">Media</a>
-      <a href="#develop" data-toggle="collapse">Develop</a>
-      <a href="#design" data-toggle="collapse">Design</a>
-      <a href="#fourchan" data-toggle="collapse">4chan</a>
+      <a href=".social" data-toggle="collapse">Social</a>
+      <a href=".media" data-toggle="collapse">Media</a>
+      <a href=".develop" data-toggle="collapse">Develop</a>
+      <a href=".design" data-toggle="collapse">Design</a>
+      <a href=".fourchan" data-toggle="collapse">4chan</a>
     </div>
     <div class="links">
       <div class="link-container">
-        <div id="social" class="panel-collapse collapse">
+        <div class="social panel-collapse collapse">
           <ul class="list-group">
             <a class="list-group-item" href="https://www.facebook.com/">Facebook</a>
             <a class="list-group-item" href="https://twitter.com/">Twitter</a>
@@ -47,7 +51,7 @@
         <div class="void"></div>
       </div>
       <div class="link-container">
-        <div id="media" class="panel-collapse collapse">
+        <div class="media panel-collapse collapse">
           <ul class="list-group">
             <a class="list-group-item" href="https://www.netflix.com/">Netflix</a>
           </ul>
@@ -55,24 +59,26 @@
         <div class="void"></div>
       </div>
       <div class="link-container"> 
-        <div id="develop" class="panel-collapse collapse">
+        <div class="develop panel-collapse collapse">
           <ul class="list-group">
             <a class="list-group-item" href="https://gitlab.com/">Gitlab</a>
             <a class="list-group-item" href="https://github.com/">Github</a>
+            <a class="list-group-item" href="http://stackoverflow.com/">Stackoverflow</a>
           </ul>
         </div>
         <div class="void"></div>
       </div>
       <div class="link-container"> 
-        <div id="design" class="panel-collapse collapse">
+        <div class="design panel-collapse collapse">
           <ul class="list-group">
             <a class="list-group-item" href="http://palettegenerator.com/">Palette</a>
+            <a class="list-group-item" href="http://startpages.github.io/">Startpages</a>
           </ul>
         </div>
         <div class="void"></div>
       </div>
       <div class="link-container">
-        <div id="fourchan" class="panel-collapse collapse">
+        <div class="fourchan panel-collapse collapse">
           <ul class="list-group">
             <a class="list-group-item" href="http://boards.4chan.org/g/">Technology</a>
             <a class="list-group-item" href="http://boards.4chan.org/gif/">GIF</a>
