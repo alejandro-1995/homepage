@@ -60,11 +60,8 @@ input {
 
 .link-container {
   height: 10px;
-}
-
-.void {
-  height: 1px;
   width: 100px;
+  padding-bottom: 1px;
 }
 
 a.list-group-item {
