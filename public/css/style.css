@@ -9,12 +9,11 @@ html, body {
 }
 
 a {
-  width: 100px;
+  width: 150px;
   text-align: center;
   text-decoration: none;
   color: white;
-  font-family: "Times New Roman";
-  font-variant: small-caps;
+  font-family: "Segoe UI Light";
 }
 
 a:focus, a:hover {
@@ -42,8 +41,7 @@ input {
   width: 200px;
   padding-left: 4px;
   border-width: 0px;
-  font-family: "Times New Roman";
-  font-variant: small-caps;
+  font-family: "Segoe UI Light";
 }
 
 .menu {
@@ -60,7 +58,7 @@ input {
 
 .link-container {
   height: 10px;
-  width: 100px;
+  width: 150px;
   padding-bottom: 1px;
 }
 
